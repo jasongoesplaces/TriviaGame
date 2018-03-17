@@ -1,0 +1,69 @@
+body{
+    background-image: url("../images/waterfall.jpg");
+    background-size: 100%;
+    text-align: center;
+    font-family: fantasy;
+}
+
+#heading{
+  padding: 5% 0;
+  background-color: rgba(255, 255, 255, 0.726);
+  width:960px;
+  margin:5% auto;
+  box-sizing: border-box;
+  min-height: 80%;
+}
+
+#mainbody{
+  position: relative;
+  top:20%;
+}
+
+button{
+  display:block;
+  width:300px;
+  height:75px;
+  margin: 10px auto 0 auto;
+  border:none;
+  cursor: pointer;
+  background:transparent;
+  font-size: 42px;
+}
+
+h1{
+  font-size: 6.5em;
+  margin-bottom: 50px;
+  margin-top: 8%;
+  font-weight: bold;
+  color: black;
+}
+
+h2{
+  font-size: 35px;
+  margin-bottom: 25px;
+}
+
+h3{
+  font-size: 25px;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+
+#start{
+  margin-top: 20%;
+  font-family: fantasy;
+}
+
+#submit{
+    margin-top: 20px;
+    font-family: fantasy;
+}
+
+button:hover {
+  background: rgba(97, 96, 96, 0.863);
+}
+
+#quiz h2{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
