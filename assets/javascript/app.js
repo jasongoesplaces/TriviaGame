@@ -75,7 +75,6 @@ countdown: function(){
     $('#clock-number').html(game.clock);
 
     if (game.clock === 0){
-    console.log('TIME UP');
     game.end();
     }
 },
